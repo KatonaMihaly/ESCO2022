@@ -1,70 +1,47 @@
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.black]
-line-length = 127
-
-[tool.coverage.report]
-exclude_lines = [
-    'if __name__ == "__main__":',
-]
-fail_under = 100
-
-[tool.coverage.run]
-branch = true
-omit = [
-    ".venv/*",
-]
-
-[tool.isort]
-line_length = 127
-case_sensitive = true
-profile = "black"
-
-[tool.mypy]
-show_error_codes = true
-strict = true
-
 [tool.poetry]
-name = "template-python-hello-world"
+name = "esco2022"
 version = "0.1.0"
-description = "A minimal template for Python development"
-authors = [
-    "Ben Cheng <42329567+Ben-Cheng@users.noreply.github.com>",
-    "Blayne Chard <bchard@linz.govt.nz>",
-    "Daniel Silk <dsilk@linz.govt.nz>",
-    "Victor Engmark <vengmark@linz.govt.nz>",
+description = ""
+authors = ["KatonaMihaly <katona0607@gmail.com>"]
 
-]
-license = "MIT"
-
+# Project dependencies only
 [tool.poetry.dependencies]
-python = "^3.6"
-typer = "*"
+python = ">=3.8,<3.10"
+Jinja2 = ">3.0.1"
+Shapely = ">1.8.0"
+aiofiles = ">0.7.0"
+ezdxf = ">0.16.5"
+fastapi = ">0.70.0"
+gmsh = ">4.8.4"
+importlib-resources = ">5.4.0"
+matplotlib = ">3.5.1"
+mkdocs = ">1.2.3"
+mkdocs-git-revision-date-plugin = ">0.3.1"
+mkdocs-material = ">7.3.6"
+mkdocstrings = {version=">0.16.2", extras = ["python"]}
+networkx = ">2.6.3"
+numpy = ">1.21.0"
+pydantic = ">1.8.2"
+pygmsh = ">7.1.13"
+python-markdown-math = "^0.8"
+scipy = ">1.7.0"
+svgpathtools = ">1.4.2"
+uvicorn = ">0.15.0"
+requests = ">=2.27.1"
+setuptools = ">61.2.0"
+digital-twin-distiller = ">2022.1"
+pandas = "^1.5.0"
 
 [tool.poetry.dev-dependencies]
 black = "*"
 coverage = "*"
-gitlint = "*"
-isort = "*"
-language-formatters-pre-commit-hooks = "*"
-mutmut = "*"
-mypy = "*"
 pre-commit = "*"
-pylint = "*"
 pytest = "*"
-pytest-randomly = "*"
-typed-ast = "*"
+isort = "*"
+pyupgrade = "^2.29"
+pylint = "^2.11.1"
 
-[tool.pylint.FORMAT]
-max-line-length = 127
-
-[tool.pylint.MASTER]
-disable = [
-    "bad-continuation",
-    "duplicate-code",
-    "invalid-name",
-    "missing-docstring",
-    "too-few-public-methods",
-]
+# build system setup
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
