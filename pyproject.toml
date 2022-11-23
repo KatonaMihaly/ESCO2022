@@ -39,7 +39,7 @@ pre-commit = "*"
 pytest = "*"
 isort = "*"
 pyupgrade = "^2.29"
-pylint = "^2.11.1"
+pylint = "^2.15.6"
 
 # build system setup
 [build-system]
