@@ -25,7 +25,7 @@ ESCO2022 - Accuracy of the Robust Design Analysis for the Flux Barrier Modelling
 SUBMITTED, UNDER REVIEW
 
 PEMC2022 - Locked Rotor Analysis of Toyota Prius 2004 Electric Machine
-ACCEPTED, IN PRINT
+M. Katona and T. Orosz, "Locked-rotor analysis of a Prius 2004 IPMSM motor with Digital-Twin-Distiller," 2022 IEEE 20th International Power Electronics and Motion Control Conference (PEMC), 2022, pp. 201-208, doi: 10.1109/PEMC51159.2022.9962847.
 
 VAE2022  - Cogging Torque Analysis of Toyota Prius 2004 Electric Machine
 Katona, M., Kiss, P., Gadó, K., Orosz, T. (2023). Cogging Torque Analysis of Toyota Prius 2004 IPMSM Motor with the Digital-Twin-Distiller. In: Jármai, K., Cservenák, Á. (eds) Vehicle and Automotive Engineering 4. VAE 2022. Lecture Notes in Mechanical Engineering. Springer, Cham. https://doi.org/10.1007/978-3-031-15211-5_11
