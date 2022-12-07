@@ -38,7 +38,7 @@ coverage = "*"
 pre-commit = "*"
 pytest = "*"
 isort = "*"
-pyupgrade = "^2.29"
+pyupgrade = "^3.3"
 pylint = "^2.11.1"
 
 # build system setup
