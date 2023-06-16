@@ -21,8 +21,7 @@ This repository exists to gather every material used in the PhD research: Develo
 
 This repository contains the material used for the following conferences and publications:
 
-ESCO2022 - Accuracy of the Robust Design Analysis for the Flux Barrier Modelling of an IPMSM
-SUBMITTED, UNDER REVIEW
+Mihály Katona, Miklós Kuczmann, Tamás Orosz, Accuracy of the robust design analysis for the flux barrier modelling of an interior permanent magnet synchronous motor, Journal of Computational and Applied Mathematics, Volume 429, 2023, 115228, ISSN 0377-0427, https://doi.org/10.1016/j.cam.2023.115228.
 
 PEMC2022 - Locked Rotor Analysis of Toyota Prius 2004 Electric Machine
 M. Katona and T. Orosz, "Locked-rotor analysis of a Prius 2004 IPMSM motor with Digital-Twin-Distiller," 2022 IEEE 20th International Power Electronics and Motion Control Conference (PEMC), 2022, pp. 201-208, doi: 10.1109/PEMC51159.2022.9962847.
